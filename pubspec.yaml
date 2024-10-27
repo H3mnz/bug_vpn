@@ -1,0 +1,48 @@
+name: bug_vpn
+description: "V2Ray clinet with free configs, developed with flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # ui and utilities
+  uicons:
+  toastification: 
+  loader_overlay:
+  flutter_animate:
+  # preferences
+  shared_preferences:
+  # network
+  http:
+  # state
+  flutter_riverpod:
+  # vpn
+  flutter_v2ray:
+    git:
+      url: https://github.com/blueboy-tm/flutter_v2ray/
+ 
+  
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  icons_launcher:
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter-Regular.ttf
+        - asset: fonts/Inter-Bold.ttf
