@@ -1,5 +1,5 @@
 name: bug_vpn
-description: "V2Ray clinet with free configs, developed with flutter."
+description: "V2Ray client with free configs, developed with flutter."
 publish_to: 'none'
 version: 1.0.0+1
 
