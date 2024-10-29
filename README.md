@@ -1,6 +1,6 @@
 # BUG VPN
 
-V2Ray clinet with free configs, developed with flutter.
+V2Ray client with free configs, developed with flutter.
 
 
 <p float="left" style="border: 2px solid black;">
